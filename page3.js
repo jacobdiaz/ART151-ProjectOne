@@ -1,7 +1,7 @@
 let msgId = 0;
 let memeId = 10;
 let firstMsg = 1;
-let duration = 1500; // 1.5s
+let duration = 2000; // 2
 let ac = setInterval(animateConvo, duration);
 
 function animateConvo() {
@@ -38,7 +38,7 @@ function displayMemes() {
 
 function waitConfirm() {
   // Wait after memes, bring up dialog box
-  setInterval(function() {}, 8000); // 10 seonds
+  setInterval(function() {}, 12000); // 10 seonds
   //    Link to next Page
   if (confirm("Xan with the Lean call it thought juice")) {
     window.location.replace("page4.html");
